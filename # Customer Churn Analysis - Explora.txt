@@ -1,0 +1,52 @@
+# Customer Churn Analysis - Exploratory Data Analysis (EDA)
+
+## Project Overview
+
+This project performs Exploratory Data Analysis (EDA) on the Telco Customer Churn dataset to identify patterns and factors affecting customer churn.
+
+## Objectives
+
+- Calculate the overall customer churn rate.
+- Visualize customer demographics.
+- Analyze customer tenure.
+- Investigate the relationship between churn and contract types.
+- Investigate the relationship between churn and payment methods.
+- Generate a correlation heatmap.
+
+## Tools & Technologies
+
+- Python
+- Jupyter Notebook
+- Pandas
+- Matplotlib
+- Seaborn
+
+## Dataset
+
+Cleaned Telco Customer Churn Dataset
+
+## Key Findings
+
+- Overall customer churn rate: **26.54%**
+- Customers with Fiber Optic Internet have higher churn.
+- Electronic Check users show higher churn.
+- Higher Monthly Charges are associated with increased churn.
+- Longer-tenure customers are less likely to churn.
+- Two-Year contract customers have the lowest churn.
+
+## Project Structure
+
+```
+Task2/
+│
+├── Data/
+│   └── Cleaned_Telco_Customer_Churn.csv
+│
+├── Task2_EDA.ipynb
+│
+└── README.md
+```
+
+## Conclusion
+
+This project demonstrates how Exploratory Data Analysis (EDA) can uncover meaningful insights into customer behavior and help businesses understand the factors influencing customer churn.
